@@ -144,6 +144,9 @@
                     <li>
                         <a href="hospital_department.php">科室统计</a>
                     </li>
+                    <li>
+                        <a href="hospital_flow.php">流量统计</a>
+                    </li>
                 </ul>
             </li>           
             <li>
