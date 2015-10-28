@@ -123,7 +123,7 @@
                         <a href="patient_disease.php">患病统计</a>
                     </li>  
                     <li>
-                        <a href="common_disease.php">常见疾病</a>
+                        <a href="patient_timeline.php">就诊时间轴</a>
                     </li>
                     <li>
                         <a href="patient_cost.php">费用统计</a>
@@ -163,6 +163,17 @@
                     </li>                                       
                 </ul>
             </li>  
+            <li>
+                <a href="javascript:;" data-toggle="collapse" data-target="#collapse_disease"><i class="fa fa-fw fa-bar-chart-o"></i> 疾病 <i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="collapse_disease" class="collapse">
+                    <li>
+                        <a href="common_disease.php">常见疾病</a>
+                    </li> 
+                    <li>
+                        <a href="disease.php">疾病分类</a>
+                    </li>                                      
+                </ul>
+            </li>             
         </ul>
     </div>
     <!-- /.navbar-collapse -->
