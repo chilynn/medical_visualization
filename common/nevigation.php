@@ -114,27 +114,56 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav side-nav">
             <li>
-                <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-dashboard"></i> 病人 <i class="fa fa-fw fa-caret-down"></i></a>
-                <ul id="demo" class="collapse">
+                <a href="javascript:;" data-toggle="collapse" data-target="#collapse_patient"><i class="fa fa-fw fa-bar-chart-o"></i> 病人 <i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="collapse_patient" class="collapse">
                     <li>
                         <a href="patient_advise.php">个性化建议</a>
+                    </li>
+                    <li>
+                        <a href="patient_disease.php">患病统计</a>
+                    </li>  
+                    <li>
+                        <a href="common_disease.php">常见疾病</a>
                     </li>
                     <li>
                         <a href="patient_cost.php">费用统计</a>
                     </li>
                 </ul>
             </li>
-            <li>
-                <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i>  医生</a>
+           <li>
+                <a href="javascript:;" data-toggle="collapse" data-target="#collapse_doctor"><i class="fa fa-fw fa-bar-chart-o"></i> 医生 <i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="collapse_doctor" class="collapse">
+                    <li>
+                        <a href="doctor_patient.php">接诊病人统计</a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="tables.html"><i class="fa fa-fw fa-table"></i>  医院</a>
-            </li>
+                <a href="javascript:;" data-toggle="collapse" data-target="#collapse_hospital"><i class="fa fa-fw fa-bar-chart-o"></i> 医院 <i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="collapse_hospital" class="collapse">
+                    <li>
+                        <a href="hospital_department.php">科室统计</a>
+                    </li>
+                </ul>
+            </li>           
             <li>
-                <a href="forms.html"><i class="fa fa-fw fa-edit"></i>  卫生局</a>
-            </li>
-
+                <a href="javascript:;" data-toggle="collapse" data-target="#collapse_bureau"><i class="fa fa-fw fa-bar-chart-o"></i> 卫生局 <i class="fa fa-fw fa-caret-down"></i></a>
+                <ul id="collapse_bureau" class="collapse">
+                    <li>
+                        <a href="bureau_hospital.php">医院统计</a>
+                    </li>
+                    <li>
+                        <a href="bureau_cost.php">医疗经费</a>
+                    </li>          
+                    <li>
+                        <a href="bureau_disease.php">疾病监控</a>
+                    </li>        
+                    <li>
+                        <a href="bureau_citizen.php">居民患病统计</a>
+                    </li>                                       
+                </ul>
+            </li>  
         </ul>
     </div>
     <!-- /.navbar-collapse -->
-</nav>}
+</nav>

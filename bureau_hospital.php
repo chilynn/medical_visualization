@@ -42,8 +42,8 @@
             <div class="container-fluid">
 
                 <div>
-<script id="infogram_0__-630117054702898" src="//e.infogr.am/js/embed.js?2LA" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-630117054702898" style="color:#989898;text-decoration:none;">病人_建议</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>
-				</div>
+<script id="infogram_0__-471835704734372" src="//e.infogr.am/js/embed.js?kOf" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-471835704734372" style="color:#989898;text-decoration:none;">卫生局_医院</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>
+                </div>
                 
 
             </div>
