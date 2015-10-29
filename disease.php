@@ -29,6 +29,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/d3.js"></script>
 
 </head>
 
@@ -41,8 +42,8 @@
 
             <div class="container-fluid">
 
-                <div>
-					<?php //include 'utils/collapse_tree/ct.php';?> 
+                <div id="disease_hierarchy">
+					<?php include 'utils/collapse_tree/ct.php';?> 
                 </div>
                 
 
