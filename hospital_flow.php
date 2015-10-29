@@ -43,7 +43,7 @@
 
                 <div>
 
-<script id="infogram_0__-754277347574595" src="//e.infogr.am/js/embed.js?1oi" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-754277347574595" style="color:#989898;text-decoration:none;">医院_流量</a><br><a style="color:#989898;text-decoration:none;" href="http://charts.infogr.am/column-chart?utm_source=embed_bottom&utm_medium=seo&utm_campaign=column_chart" target="_blank">Create column charts</a></div>
+<script id="infogram_0__-754277347574595" src="//e.infogr.am/js/embed.js?Xaz" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-754277347574595" style="color:#989898;text-decoration:none;">医院_流量</a><br><a style="color:#989898;text-decoration:none;" href="http://charts.infogr.am/column-chart?utm_source=embed_bottom&utm_medium=seo&utm_campaign=column_chart" target="_blank">Create column charts</a></div>
 
 				</div>
                 

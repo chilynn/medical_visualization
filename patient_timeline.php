@@ -43,6 +43,11 @@
 
                 <div>
                 	<h>就诊时间轴</h>
+
+                    <?php include 'zhangdan.php';?>
+
+
+
                 </div>
                 
 

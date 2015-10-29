@@ -30,6 +30,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script src="js/d3.js"></script>
+
 </head>
 
 <body>
@@ -40,12 +42,14 @@
         <div id="page-wrapper">
 
             <div class="container-fluid">
+                <div id="map" style="margin-left:100px">
+                    <?php include 'utils/map/map.html';?>
+                </div>
 
                 <div>
-<script id="infogram_0__-432525682474268" src="//e.infogr.am/js/embed.js?i9T" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-432525682474268" style="color:#989898;text-decoration:none;">卫生局_疾病</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>
+                    <script id="infogram_0__-432525682474268" src="//e.infogr.am/js/embed.js?i9T" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-432525682474268" style="color:#989898;text-decoration:none;">卫生局_疾病</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>               
                 </div>
                 
-
             </div>
             <!-- /.container-fluid -->
 

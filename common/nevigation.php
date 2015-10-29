@@ -128,6 +128,9 @@
                     <li>
                         <a href="patient_cost.php">费用统计</a>
                     </li>
+                    <li>
+                        <a href="patient_chemicaltest.php">化验单</a>
+                    </li>
                 </ul>
             </li>
            <li>

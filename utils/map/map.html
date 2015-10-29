@@ -1,0 +1,89 @@
+<script>
+	var width  = 960;
+
+	var height = 500;
+	var col;
+	var cid = [];
+	var cname = []
+	var cnumber = [];
+
+	var colors = d3.interpolate("white", "steelblue");        //颜色插值函数  
+	var linear = d3.scale.linear()  
+        .domain([0, 5000])  
+        .range([0, 1]);  
+
+
+	var svg = d3.select("#map").append("svg")
+	    .attr("width", width)
+	    .attr("height", height)
+	    .append("g")
+	    .attr("transform", "translate(0,0)");
+
+    var projection = d3.geo.mercator()
+						.center([120.1712, 30.2780])
+						.scale(10000)
+    					.translate([width/2, height/2]);
+
+	var title = svg.append("text")
+	    .style("font-size", "200%")
+	    .style("font-family", "Helvetica")
+	    .style("fill", "steelblue")
+	    .attr("transform", "translate(150, 120)");
+
+	title.text("杭州地区高血压患病人数分布图");
+	    
+
+	var text = svg.append("text")
+	    .style("font-size", "120%")
+	    .style("font-family", "Helvetica")
+	    .attr("transform", "translate(200, 200)");
+
+	   	var path = d3.geo.path()
+						.projection(projection);
+	
+	
+	d3.csv("utils/map/disease1.csv", function(error, data){
+		data.forEach(function(d,i){
+			cid[i] = d.id;
+			cnumber[i] = d.number;
+			cname[i] = d.name;
+				})
+    });
+
+	d3.json("utils/map/330100g.json", function(error, root) {
+		
+		if (error) 
+			return console.error(error);
+		console.log(root.features);
+		
+		svg.selectAll("path")
+			.data( root.features )
+			.enter()
+			.append("path")
+			.attr("stroke","#ffffff")
+			.attr("stroke-width",1)
+			.attr("fill", function(d,i){
+				return color(d, i);
+			})
+			.attr("d", path )
+			.on("mouseover",function(d,i){
+                d3.select(this)
+                    .attr("fill","gray");
+                text.text(cname[i] + ":" + cnumber[i]);
+                text.style("fill", "gray")
+            })
+            .on("mouseout",function(d,i){
+                d3.select(this)
+                    .attr("fill",color(d, i));
+            });
+	});
+
+
+	function color(dd, i){
+		col = colors(linear(cnumber[i]));
+    	return col;
+	}
+
+
+</script>
+	
