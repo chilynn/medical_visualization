@@ -42,7 +42,7 @@
             <div class="container-fluid">
 
                 <div>
-<script id="infogram_0_-8820301903981825" src="//e.infogr.am/js/embed.js?mkH" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/-8820301903981825" style="color:#989898;text-decoration:none;">常见疾病</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>
+<script id="infogram_0_diagnosis-5331426" src="//e.infogr.am/js/embed.js?wiM" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/diagnosis-5331426" style="color:#989898;text-decoration:none;">Diagnosis</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>
                 </div>
                 
 
