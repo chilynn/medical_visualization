@@ -42,12 +42,11 @@
             <div class="container-fluid">
 
 
-                <div >
-                	 <div id="chemical-test">
-						<?php include 'chemical_test.html';?>
-					</div>
+                <div>
 
-<script id="infogram_0__-760173456014790" src="//e.infogr.am/js/embed.js?2B5" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-760173456014790" style="color:#989898;text-decoration:none;">病人_化验单</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>   	
+                    <?php include 'utils/network/network.html';?>
+
+
                 </div>
 
 

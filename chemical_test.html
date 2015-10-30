@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.axis line {
+  stroke: #000;
+}
+
+.axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.axis + .axis g text {
+  display: none;
+}
+
+
+</style>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script>
+
+var formatDate = d3.time.format("%a"),
+    formatDay = function(d) { return formatDate(new Date(2007, 0, d)); };
+
+var width = 960,
+    height = 500,
+    outerRadius = height / 2 - 10,
+    innerRadius = 60;
+
+var angle = d3.time.scale()
+    .range([0, 2 * Math.PI]);
+
+var radius = d3.scale.linear()
+    .range([innerRadius, outerRadius]);
+
+var z = d3.scale.category20c();
+
+var stack = d3.layout.stack()
+    .offset("zero")
+    .values(function(d) { return d.values; })
+    .x(function(d) { return d.time; })
+    .y(function(d) { return d.value; });
+
+var nest = d3.nest()
+    .key(function(d) { return d.key; });
+
+var line = d3.svg.line.radial()
+    .interpolate("cardinal-closed")
+    .angle(function(d) { return angle(d.time); })
+    .radius(function(d) { return radius(d.y); });
+
+var area = d3.svg.area.radial()
+    .interpolate("cardinal-closed")
+    .angle(function(d) { return angle(d.time); })
+    .innerRadius(function(d) { return 0; })
+    .outerRadius(function(d) { return radius(d.y); });
+
+var svg = d3.select("#chemical-test").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+d3.csv("data/data.csv", type, function(error, data) {
+  var layers = stack(nest.entries(data));
+  // Extend the domain slightly to match the range of [0, 2π].
+  angle.domain([0, d3.max(data, function(d) { return d.time + 1; })]);
+  radius.domain([0, d3.max(data, function(d) { return d.y; })]);
+
+  svg.selectAll(".layer")
+      .data(layers)
+    .enter().append("path")
+      .attr("class", "layer")
+      .attr("d", function(d) { return area(d.values); })
+      .style("fill", function(d, i) {if (i==1) return "white"; return z(i); })
+      .style("stroke", function(d, i){if(i==2) return "#E8120C"})
+      .style("fill-opacity", function(d,i){if (i==2) return 0; return 1;});
+/*
+  svg.selectAll(".circle")
+      .data(data)
+    .enter().append("circle")
+      .attr("cx", function(d, i){ if(i%3 == 2) return (120+d.value/22*(outerRadius-innerRadius))*Math.cos(2*(i+1)*Math.PI/21 + Math.PI/14);})
+      .attr("cy", function(d, i){ if(i%3 == 2) return (120+d.value/22*(outerRadius-innerRadius))*Math.sin(2*(i+1)*Math.PI/21 + Math.PI/14);})
+      .attr("r", 5)
+      .style("fill", "red");
+*/
+  svg.selectAll(".axis")
+      .data(d3.range(angle.domain()[1]))
+    .enter().append("g")
+      .attr("class", "axis")
+      .attr("transform", function(d) { return "rotate(" + angle(d) * 180 / Math.PI + ")"; })
+    .call(d3.svg.axis()
+      .scale(radius.copy().range([-innerRadius, -outerRadius]))
+      .orient("left"))
+    .append("text")
+      .attr("y", -innerRadius + 6)
+      .attr("dy", ".71em")
+      .attr("text-anchor", "middle")
+      .text(function(d) { 
+      switch(d)
+      {
+        case 0:
+          return "总胆红素";
+        case 1:
+          return "总蛋白";
+        case 2:
+          return "白蛋白";
+        case 3:
+          return "葡萄糖";
+        case 4:
+          return "总胆固醇";
+        case 5:
+          return "甘油三酯";
+        case 6:
+          return "肌酐";
+        default:
+          return "尿素氮";
+      }
+    });
+});
+
+function type(d) {
+  d.time = +d.time;
+  //d.value = +d.value;
+  d.value = +Math.log(d.value);
+  if(d.value < 0&&d.key=='a'){
+    d.value = -d.value;
+    d.key = 'b';}
+  else if(d.value < 0&&d.key == 'b'){
+    d.value = -d.value;
+    d.key = 'a';
+  }
+  else if(d.value < 0)
+      d.value = -d.value;
+  return d;
+}
+
+</script>

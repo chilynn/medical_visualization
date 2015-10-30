@@ -150,6 +150,9 @@
                     <li>
                         <a href="hospital_flow.php">流量统计</a>
                     </li>
+                    <li>
+                        <a href="hospital_flow.php">住院统计</a>
+                    </li>
                 </ul>
             </li>           
             <li>
@@ -163,10 +166,7 @@
                     </li>          
                     <li>
                         <a href="bureau_disease.php">疾病监控</a>
-                    </li>        
-                    <li>
-                        <a href="bureau_citizen.php">居民患病统计</a>
-                    </li>                                       
+                    </li>                                            
                 </ul>
             </li>  
             <li>
@@ -174,7 +174,10 @@
                 <ul id="collapse_disease" class="collapse">
                     <li>
                         <a href="common_disease.php">常见疾病</a>
-                    </li> 
+                    </li>
+                    <li>
+                        <a href="disease_relation.php">疾病关系</a>
+                    </li>                     
                     <li>
                         <a href="disease.php">疾病分类</a>
                     </li>                                      

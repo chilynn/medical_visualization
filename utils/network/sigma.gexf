@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2015-10-30">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <nodes>
+      <node id="高血压" label="高血压">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-2.353319" y="-3.384464" z="0.0"></viz:position>
+      </node>
+      <node id="上呼吸道感染" label="上呼吸道感染">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="211.42668" y="174.1447" z="0.0"></viz:position>
+        <viz:color r="84" g="84" b="84"></viz:color>
+      </node>
+      <node id="糖尿病" label="糖尿病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-21.458736" y="287.69092" z="0.0"></viz:position>
+        <viz:color r="215" g="215" b="215"></viz:color>
+      </node>
+      <node id="胃炎" label="胃炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="141.13599" y="-245.62852" z="0.0"></viz:position>
+        <viz:color r="156" g="156" b="156"></viz:color>
+      </node>
+      <node id="支气管炎" label="支气管炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="233.23206" y="458.2649" z="0.0"></viz:position>
+        <viz:color r="173" g="173" b="173"></viz:color>
+      </node>
+      <node id="急性上呼吸道感染" label="急性上呼吸道感染">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-241.17242" y="165.48015" z="0.0"></viz:position>
+        <viz:color r="199" g="199" b="199"></viz:color>
+      </node>
+      <node id="冠心病" label="冠心病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="445.75592" y="324.61472" z="0.0"></viz:position>
+        <viz:color r="235" g="235" b="235"></viz:color>
+      </node>
+      <node id="上呼吸道疾病" label="上呼吸道疾病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-360.2619" y="-401.705" z="0.0"></viz:position>
+        <viz:color r="209" g="209" b="209"></viz:color>
+      </node>
+      <node id="急性扁桃体炎" label="急性扁桃体炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-516.1523" y="-193.15628" z="0.0"></viz:position>
+        <viz:color r="235" g="235" b="235"></viz:color>
+      </node>
+      <node id="软组织挫伤" label="软组织挫伤">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="538.7672" y="82.54207" z="0.0"></viz:position>
+        <viz:color r="225" g="225" b="225"></viz:color>
+      </node>
+      <node id="心律失常（心律不齐）" label="心律失常（心律不齐）">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="305.42126" y="-55.45301" z="0.0"></viz:position>
+        <viz:color r="228" g="228" b="228"></viz:color>
+      </node>
+      <node id="乏力" label="乏力">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="519.68964" y="-194.61555" z="0.0"></viz:position>
+        <viz:color r="228" g="228" b="228"></viz:color>
+      </node>
+      <node id="关节炎" label="关节炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="3.6419928" y="554.1421" z="0.0"></viz:position>
+        <viz:color r="232" g="232" b="232"></viz:color>
+      </node>
+      <node id="心律失常" label="心律失常">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-247.2105" y="480.18228" z="0.0"></viz:position>
+        <viz:color r="235" g="235" b="235"></viz:color>
+      </node>
+      <node id="咽炎" label="咽炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="363.3588" y="-406.49258" z="0.0"></viz:position>
+        <viz:color r="232" g="232" b="232"></viz:color>
+      </node>
+      <node id="急性咽炎" label="急性咽炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-111.096085" y="-272.80426" z="0.0"></viz:position>
+        <viz:color r="222" g="222" b="222"></viz:color>
+      </node>
+      <node id="急性支气管炎" label="急性支气管炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-531.8351" y="69.57376" z="0.0"></viz:position>
+        <viz:color r="215" g="215" b="215"></viz:color>
+      </node>
+      <node id="慢性胃炎" label="慢性胃炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-450.87167" y="317.7244" z="0.0"></viz:position>
+        <viz:color r="232" g="232" b="232"></viz:color>
+      </node>
+      <node id="高血压性心脏病" label="高血压性心脏病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="128.60161" y="-523.17645" z="0.0"></viz:position>
+        <viz:color r="235" g="235" b="235"></viz:color>
+      </node>
+      <node id="消化不良" label="消化不良">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-280.96765" y="-85.01833" z="0.0"></viz:position>
+        <viz:color r="225" g="225" b="225"></viz:color>
+      </node>
+      <node id="胃溃疡" label="胃溃疡">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-127.65158" y="-532.9257" z="0.0"></viz:position>
+        <viz:color r="228" g="228" b="228"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="高血压" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="高血压" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="高血压" target="上呼吸道疾病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="高血压" target="急性扁桃体炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="高血压" target="慢性胃炎" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="上呼吸道感染" target="急性扁桃体炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="糖尿病" target="高血压" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="糖尿病" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="糖尿病" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="糖尿病" target="上呼吸道疾病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃炎" target="高血压" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃炎" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃炎" target="糖尿病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃炎" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃炎" target="上呼吸道疾病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃炎" target="软组织挫伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃炎" target="咽炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃炎" target="急性支气管炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="高血压" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="糖尿病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="上呼吸道疾病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="急性扁桃体炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="软组织挫伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="关节炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="心律失常">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="支气管炎" target="慢性胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性上呼吸道感染" target="急性扁桃体炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="冠心病" target="高血压">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="冠心病" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="冠心病" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="冠心病" target="支气管炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="冠心病" target="软组织挫伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="上呼吸道疾病" target="急性扁桃体炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="软组织挫伤" target="高血压">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="软组织挫伤" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常（心律不齐）" target="高血压">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常（心律不齐）" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常（心律不齐）" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常（心律不齐）" target="支气管炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常（心律不齐）" target="软组织挫伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常（心律不齐）" target="乏力">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="乏力" target="高血压">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="乏力" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="乏力" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="乏力" target="软组织挫伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="乏力" target="咽炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="关节炎" target="高血压" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="关节炎" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="关节炎" target="糖尿病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="关节炎" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="关节炎" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="关节炎" target="心律失常">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="关节炎" target="急性支气管炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常" target="高血压">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常" target="糖尿病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="心律失常" target="慢性胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="咽炎" target="高血压">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="咽炎" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="咽炎" target="软组织挫伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性咽炎" target="高血压" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性咽炎" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性咽炎" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性咽炎" target="支气管炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性咽炎" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性咽炎" target="上呼吸道疾病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性咽炎" target="急性支气管炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性咽炎" target="慢性胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性咽炎" target="胃溃疡">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性支气管炎" target="高血压" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性支气管炎" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性支气管炎" target="糖尿病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性支气管炎" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性支气管炎" target="上呼吸道疾病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性支气管炎" target="慢性胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="慢性胃炎" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="慢性胃炎" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="高血压性心脏病" target="高血压" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="高血压性心脏病" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="高血压性心脏病" target="糖尿病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="高血压性心脏病" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="高血压性心脏病" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="消化不良" target="高血压" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="消化不良" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="消化不良" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="消化不良" target="支气管炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="消化不良" target="急性上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="消化不良" target="急性咽炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="消化不良" target="急性支气管炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="消化不良" target="慢性胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="消化不良" target="胃溃疡">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃溃疡" target="高血压" weight="2.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃溃疡" target="上呼吸道感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃溃疡" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃溃疡" target="支气管炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃溃疡" target="急性扁桃体炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="胃溃疡" target="高血压性心脏病">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

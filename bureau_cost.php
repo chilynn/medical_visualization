@@ -42,7 +42,7 @@
             <div class="container-fluid">
 
                 <div>
-<script id="infogram_0__-960983477688474" src="//e.infogr.am/js/embed.js?wPh" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-960983477688474" style="color:#989898;text-decoration:none;">卫生局_费用</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>
+<script id="infogram_0__-248708971778848" src="//e.infogr.am/js/embed.js?zVL" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-248708971778848" style="color:#989898;text-decoration:none;">卫生局_费用</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>     
                 </div>
                 
 

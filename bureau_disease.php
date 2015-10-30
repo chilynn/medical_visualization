@@ -47,7 +47,7 @@
                 </div>
 
                 <div>
-                    <script id="infogram_0__-432525682474268" src="//e.infogr.am/js/embed.js?i9T" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-432525682474268" style="color:#989898;text-decoration:none;">卫生局_疾病</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>               
+<script id="infogram_0__-258790118874496" src="//e.infogr.am/js/embed.js?tGl" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/_-258790118874496" style="color:#989898;text-decoration:none;">卫生局_疾病监控</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>
                 </div>
                 
             </div>

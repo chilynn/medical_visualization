@@ -44,7 +44,7 @@
                 <div>
                 	<h>就诊时间轴</h>
 
-                    <?php include 'zhangdan.php';?>
+                    <?php include 'timeline.php';?>
 
 
 
