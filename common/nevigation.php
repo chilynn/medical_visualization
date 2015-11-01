@@ -117,16 +117,16 @@
                 <a href="javascript:;" data-toggle="collapse" data-target="#collapse_patient"><i class="fa fa-fw fa-bar-chart-o"></i> 病人 <i class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="collapse_patient" class="collapse">
                     <li>
-                        <a href="patient_advise.php">个性化建议</a>
-                    </li>
+                        <a href="patient_visited_info.php">就诊情况</a>
+                    </li>  
                     <li>
                         <a href="patient_disease.php">患病统计</a>
                     </li>  
                     <li>
-                        <a href="patient_timeline.php">就诊时间轴</a>
+                        <a href="patient_cost.php">费用统计</a>
                     </li>
                     <li>
-                        <a href="patient_cost.php">费用统计</a>
+                        <a href="patient_timeline.php">就诊时间轴</a>
                     </li>
                     <li>
                         <a href="patient_chemicaltest.php">化验单</a>

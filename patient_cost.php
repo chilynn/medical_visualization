@@ -41,8 +41,11 @@
 
             <div class="container-fluid">
                 <div>
-                    <script id="infogram_0__-576679231410398" src="http://e.infogr.am/js/embed.js?0o7" type="text/javascript"></script>
-				</div>
+ 
+
+<script id="infogram_0_-4798802665269217" src="//e.infogr.am/js/embed.js?6Zs" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/-4798802665269217" style="color:#989898;text-decoration:none;">费用统计</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div><a href=""></a>
+
+                </div>
             </div>
             <!-- /.container-fluid -->
 

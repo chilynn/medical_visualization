@@ -1,3 +1,0 @@
-<div>
-	<script id="infogram_0_test-809045280482" src="//e.infogr.am/js/embed.js?1p8" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/test-809045280482" style="color:#989898;text-decoration:none;">test</a><br><a style="color:#989898;text-decoration:none;" href="http://charts.infogr.am/line-chart?utm_source=embed_bottom&utm_medium=seo&utm_campaign=line_chart" target="_blank">Create line charts</a></div>
-	</div>

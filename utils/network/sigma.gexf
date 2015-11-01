@@ -1,436 +1,1660 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
-  <meta lastmodifieddate="2015-10-30">
+  <meta lastmodifieddate="2015-11-01">
     <creator>Gephi 0.8.1</creator>
     <description></description>
   </meta>
   <graph defaultedgetype="undirected" mode="static">
     <nodes>
-      <node id="高血压" label="高血压">
-        <attvalues></attvalues>
-        <viz:size value="10.0"></viz:size>
-        <viz:position x="-2.353319" y="-3.384464" z="0.0"></viz:position>
-      </node>
-      <node id="上呼吸道感染" label="上呼吸道感染">
-        <attvalues></attvalues>
-        <viz:size value="10.0"></viz:size>
-        <viz:position x="211.42668" y="174.1447" z="0.0"></viz:position>
-        <viz:color r="84" g="84" b="84"></viz:color>
-      </node>
       <node id="糖尿病" label="糖尿病">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-21.458736" y="287.69092" z="0.0"></viz:position>
-        <viz:color r="215" g="215" b="215"></viz:color>
+        <viz:position x="-109.25115" y="245.92238" z="0.0"></viz:position>
       </node>
-      <node id="胃炎" label="胃炎">
+      <node id="足溃疡" label="足溃疡">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="141.13599" y="-245.62852" z="0.0"></viz:position>
-        <viz:color r="156" g="156" b="156"></viz:color>
+        <viz:position x="-237.25671" y="364.9467" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
       </node>
-      <node id="支气管炎" label="支气管炎">
+      <node id="肾脏病变" label="肾脏病变">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="233.23206" y="458.2649" z="0.0"></viz:position>
-        <viz:color r="173" g="173" b="173"></viz:color>
+        <viz:position x="-437.1274" y="4.7864676" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
       </node>
-      <node id="急性上呼吸道感染" label="急性上呼吸道感染">
+      <node id="神经病变" label="神经病变">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-241.17242" y="165.48015" z="0.0"></viz:position>
-        <viz:color r="199" g="199" b="199"></viz:color>
+        <viz:position x="-264.39975" y="519.60443" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="糖尿病酮症酸中毒" label="糖尿病酮症酸中毒">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="33.77816" y="511.0867" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="高渗性昏迷" label="高渗性昏迷">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-381.42392" y="629.71484" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="视网膜病变" label="视网膜病变">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="26.763445" y="326.76382" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="尿路感染" label="尿路感染">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-600.3438" y="175.06459" z="0.0"></viz:position>
+        <viz:color r="196" g="196" b="196"></viz:color>
+      </node>
+      <node id="膀胱炎" label="膀胱炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-106.50137" y="593.9523" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肺结核" label="肺结核">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="178.07536" y="249.5144" z="0.0"></viz:position>
+        <viz:color r="196" g="196" b="196"></viz:color>
+      </node>
+      <node id="动脉粥样硬化" label="动脉粥样硬化">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-117.52237" y="90.37674" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
       </node>
       <node id="冠心病" label="冠心病">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="445.75592" y="324.61472" z="0.0"></viz:position>
-        <viz:color r="235" g="235" b="235"></viz:color>
+        <viz:position x="-261.5965" y="181.08276" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
       </node>
-      <node id="上呼吸道疾病" label="上呼吸道疾病">
+      <node id="脑血管病" label="脑血管病">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-360.2619" y="-401.705" z="0.0"></viz:position>
-        <viz:color r="209" g="209" b="209"></viz:color>
+        <viz:position x="-102.32084" y="429.5001" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
       </node>
-      <node id="急性扁桃体炎" label="急性扁桃体炎">
+      <node id="心肌梗死" label="心肌梗死">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-516.1523" y="-193.15628" z="0.0"></viz:position>
-        <viz:color r="235" g="235" b="235"></viz:color>
+        <viz:position x="-159.88486" y="-73.265755" z="0.0"></viz:position>
+        <viz:color r="138" g="138" b="138"></viz:color>
       </node>
-      <node id="软组织挫伤" label="软组织挫伤">
+      <node id="心力衰竭" label="心力衰竭">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="538.7672" y="82.54207" z="0.0"></viz:position>
-        <viz:color r="225" g="225" b="225"></viz:color>
+        <viz:position x="268.62973" y="-83.27836" z="0.0"></viz:position>
+        <viz:color r="185" g="185" b="185"></viz:color>
       </node>
-      <node id="心律失常（心律不齐）" label="心律失常（心律不齐）">
+      <node id="肺水肿" label="肺水肿">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="305.42126" y="-55.45301" z="0.0"></viz:position>
-        <viz:color r="228" g="228" b="228"></viz:color>
+        <viz:position x="-88.14118" y="757.66626" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
       </node>
-      <node id="乏力" label="乏力">
+      <node id="心肌炎" label="心肌炎">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="519.68964" y="-194.61555" z="0.0"></viz:position>
-        <viz:color r="228" g="228" b="228"></viz:color>
-      </node>
-      <node id="关节炎" label="关节炎">
-        <attvalues></attvalues>
-        <viz:size value="10.0"></viz:size>
-        <viz:position x="3.6419928" y="554.1421" z="0.0"></viz:position>
-        <viz:color r="232" g="232" b="232"></viz:color>
+        <viz:position x="456.47998" y="388.47308" z="0.0"></viz:position>
+        <viz:color r="220" g="220" b="220"></viz:color>
       </node>
       <node id="心律失常" label="心律失常">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-247.2105" y="480.18228" z="0.0"></viz:position>
-        <viz:color r="235" g="235" b="235"></viz:color>
+        <viz:position x="146.07394" y="16.796858" z="0.0"></viz:position>
+        <viz:color r="173" g="173" b="173"></viz:color>
       </node>
-      <node id="咽炎" label="咽炎">
+      <node id="高血压" label="高血压">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="363.3588" y="-406.49258" z="0.0"></viz:position>
-        <viz:color r="232" g="232" b="232"></viz:color>
+        <viz:position x="-332.75873" y="-132.6713" z="0.0"></viz:position>
+        <viz:color r="34" g="34" b="34"></viz:color>
       </node>
-      <node id="急性咽炎" label="急性咽炎">
+      <node id="白内障" label="白内障">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-111.096085" y="-272.80426" z="0.0"></viz:position>
-        <viz:color r="222" g="222" b="222"></viz:color>
+        <viz:position x="-441.6955" y="151.87045" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
       </node>
-      <node id="急性支气管炎" label="急性支气管炎">
+      <node id="青光眼" label="青光眼">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-531.8351" y="69.57376" z="0.0"></viz:position>
-        <viz:color r="215" g="215" b="215"></viz:color>
+        <viz:position x="162.07419" y="418.33963" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
       </node>
-      <node id="慢性胃炎" label="慢性胃炎">
+      <node id="肾盂肾炎" label="肾盂肾炎">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-450.87167" y="317.7244" z="0.0"></viz:position>
-        <viz:color r="232" g="232" b="232"></viz:color>
+        <viz:position x="-1.1414702" y="-13.686389" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
       </node>
-      <node id="高血压性心脏病" label="高血压性心脏病">
+      <node id="心动过速" label="心动过速">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="128.60161" y="-523.17645" z="0.0"></viz:position>
-        <viz:color r="235" g="235" b="235"></viz:color>
+        <viz:position x="44.505043" y="156.80595" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
       </node>
-      <node id="消化不良" label="消化不良">
+      <node id="慢性肺源性心脏病" label="慢性肺源性心脏病">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-280.96765" y="-85.01833" z="0.0"></viz:position>
-        <viz:color r="225" g="225" b="225"></viz:color>
+        <viz:position x="398.0816" y="59.93946" z="0.0"></viz:position>
+        <viz:color r="173" g="173" b="173"></viz:color>
+      </node>
+      <node id="肺性脑病" label="肺性脑病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="567.1563" y="-6.495177" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="电解质紊乱" label="电解质紊乱">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="417.78183" y="-93.393684" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="休克" label="休克">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="56.450428" y="671.7087" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="消化道出血" label="消化道出血">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="828.87256" y="-345.7011" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="弥散性血管内凝血" label="弥散性血管内凝血">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="737.9846" y="-94.20455" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="脑血管意外" label="脑血管意外">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-445.36658" y="-423.46973" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="心绞痛" label="心绞痛">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-33.79749" y="-178.01727" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="左心室肥厚" label="左心室肥厚">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-404.81143" y="-267.21588" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="出血性脑卒中" label="出血性脑卒中">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-519.6972" y="-565.96313" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="缺血性脑卒中" label="缺血性脑卒中">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-320.0217" y="-520.90173" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="高血压脑病" label="高血压脑病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-680.2038" y="-140.82057" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="主动脉夹层" label="主动脉夹层">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-561.1468" y="-283.71948" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="小动脉性肾硬化症" label="小动脉性肾硬化症">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-714.5542" y="-299.57208" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肾功能衰竭" label="肾功能衰竭">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-368.2473" y="291.83447" z="0.0"></viz:position>
+        <viz:color r="196" g="196" b="196"></viz:color>
+      </node>
+      <node id="视网膜动脉硬化" label="视网膜动脉硬化">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-516.7819" y="-129.96791" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="眼底改变" label="眼底改变">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-613.86487" y="-438.3996" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肝硬化" label="肝硬化">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="532.4618" y="-313.42688" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="肝硬化腹水" label="肝硬化腹水">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="528.9287" y="-478.9311" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肝硬化消化道大出血" label="肝硬化消化道大出血">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="668.8286" y="-406.9917" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肾乳头坏死" label="肾乳头坏死">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-913.6596" y="-57.487595" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肾周围炎和肾周围脓肿" label="肾周围炎和肾周围脓肿">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-826.35956" y="412.12164" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="革兰氏阴性杆菌败血症" label="革兰氏阴性杆菌败血症">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-766.7863" y="-11.719781" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="呼吸道感染" label="呼吸道感染">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="714.10004" y="56.489952" z="0.0"></viz:position>
+        <viz:color r="173" g="173" b="173"></viz:color>
+      </node>
+      <node id="血栓" label="血栓">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="247.09348" y="-266.68195" z="0.0"></viz:position>
+        <viz:color r="185" g="185" b="185"></viz:color>
+      </node>
+      <node id="脑梗塞" label="脑梗塞">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-522.5611" y="316.22614" z="0.0"></viz:position>
+        <viz:color r="185" g="185" b="185"></viz:color>
+      </node>
+      <node id="肺部感染" label="肺部感染">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-280.02975" y="31.343761" z="0.0"></viz:position>
+        <viz:color r="185" g="185" b="185"></viz:color>
+      </node>
+      <node id="关节挛缩" label="关节挛缩">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-707.1052" y="307.2694" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="癫痫" label="癫痫">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-620.6165" y="440.8918" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="应激性溃疡" label="应激性溃疡">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-355.98602" y="804.2706" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="心脏破裂" label="心脏破裂">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-206.41234" y="-227.08575" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="泵衰竭" label="泵衰竭">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-146.65834" y="-465.6781" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="心室膨胀瘤" label="心室膨胀瘤">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="90.345764" y="-309.43066" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="心肌梗死后综合征" label="心肌梗死后综合征">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-80.04321" y="-328.6832" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肩手综合征" label="肩手综合征">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="28.535448" y="-454.362" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="消化性溃疡" label="消化性溃疡">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="938.1874" y="-497.02124" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="幽门梗阻" label="幽门梗阻">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="993.83417" y="-349.79672" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="急性穿孔" label="急性穿孔">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="843.64276" y="-650.363" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="慢性支气管炎" label="慢性支气管炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="889.3355" y="600.66895" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="阻塞性肺气肿" label="阻塞性肺气肿">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="769.0721" y="734.9844" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="支气管肺炎" label="支气管肺炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="854.1201" y="451.2596" z="0.0"></viz:position>
+        <viz:color r="208" g="208" b="208"></viz:color>
+      </node>
+      <node id="支气管扩张" label="支气管扩张">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="993.35846" y="404.6158" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="支气管哮喘" label="支气管哮喘">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="249.346" y="120.22106" z="0.0"></viz:position>
+        <viz:color r="150" g="150" b="150"></viz:color>
+      </node>
+      <node id="气胸" label="气胸">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="321.9834" y="493.81906" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="呼吸衰竭" label="呼吸衰竭">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="190.93243" y="583.6517" z="0.0"></viz:position>
+        <viz:color r="208" g="208" b="208"></viz:color>
+      </node>
+      <node id="慢性阻塞性肺疾病" label="慢性阻塞性肺疾病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="308.0682" y="333.5889" z="0.0"></viz:position>
+        <viz:color r="196" g="196" b="196"></viz:color>
       </node>
       <node id="胃溃疡" label="胃溃疡">
         <attvalues></attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-127.65158" y="-532.9257" z="0.0"></viz:position>
-        <viz:color r="228" g="228" b="228"></viz:color>
+        <viz:position x="349.539" y="666.00214" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="睡眠呼吸障碍" label="睡眠呼吸障碍">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="574.7961" y="294.0187" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肺炎" label="肺炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="595.42883" y="473.2503" z="0.0"></viz:position>
+        <viz:color r="138" g="138" b="138"></viz:color>
+      </node>
+      <node id="感染性休克" label="感染性休克">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="718.88293" y="374.35266" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="胸膜炎" label="胸膜炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="724.6714" y="209.07489" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="脓胸" label="脓胸">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="620.1339" y="665.4922" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肾小球肾炎" label="肾小球肾炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-603.768" y="17.411041" z="0.0"></viz:position>
+        <viz:color r="208" g="208" b="208"></viz:color>
+      </node>
+      <node id="循环充血状态" label="循环充血状态">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-845.5928" y="-195.93103" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="骨折" label="骨折">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="212.88213" y="-426.96332" z="0.0"></viz:position>
+        <viz:color r="150" g="150" b="150"></viz:color>
+      </node>
+      <node id="褥疮" label="褥疮">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-15.318993" y="-607.2203" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="感染" label="感染">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="391.55875" y="-245.82413" z="0.0"></viz:position>
+        <viz:color r="220" g="220" b="220"></viz:color>
+      </node>
+      <node id="损伤性骨化" label="损伤性骨化">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="552.8713" y="-728.29407" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="创伤性关节炎" label="创伤性关节炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="454.97842" y="-608.90265" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="关节僵硬" label="关节僵硬">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="379.4149" y="-411.2969" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="急性骨萎缩" label="急性骨萎缩">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="313.7541" y="-561.87885" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="缺血性骨坏死" label="缺血性骨坏死">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="88.06568" y="-737.71857" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="缺血性肌痉挛" label="缺血性肌痉挛">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="242.75148" y="-708.49805" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="髌骨骨折" label="髌骨骨折">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-377.26898" y="-831.2839" z="0.0"></viz:position>
+        <viz:color r="185" g="185" b="185"></viz:color>
+      </node>
+      <node id="创伤性休克" label="创伤性休克">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-263.15643" y="-1023.41" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="挤压综合征" label="挤压综合征">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-686.6163" y="-807.6663" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="血管神经损伤" label="血管神经损伤">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-254.06512" y="-736.01306" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="脂肪栓塞综合征" label="脂肪栓塞综合征">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-75.81938" y="-759.38074" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="骨折畸形愈合" label="骨折畸形愈合">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-31.927006" y="-904.161" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="骨折不连接" label="骨折不连接">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-532.5456" y="-745.96576" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="膝关节僵直" label="膝关节僵直">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-201.33563" y="-883.641" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肱骨骨折" label="肱骨骨折">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-274.71133" y="-362.49335" z="0.0"></viz:position>
+        <viz:color r="196" g="196" b="196"></viz:color>
+      </node>
+      <node id="缺血性肌挛缩" label="缺血性肌挛缩">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-394.7114" y="-658.581" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肘内翻" label="肘内翻">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-179.06268" y="-611.7964" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="骨盆骨折" label="骨盆骨折">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="393.12848" y="-761.0013" z="0.0"></viz:position>
+        <viz:color r="196" g="196" b="196"></viz:color>
+      </node>
+      <node id="腹膜后血肿" label="腹膜后血肿">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="129.37332" y="-886.7135" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="膀胱或尿道损伤" label="膀胱或尿道损伤">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="285.14227" y="-869.1963" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="腹腔内脏损伤" label="腹腔内脏损伤">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="617.9385" y="-868.4695" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="神经损伤" label="神经损伤">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="477.16647" y="-916.41144" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="颈椎病" label="颈椎病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-751.4008" y="-500.44107" z="0.0"></viz:position>
+        <viz:color r="196" g="196" b="196"></viz:color>
+      </node>
+      <node id="吞咽障碍" label="吞咽障碍">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-1000.7126" y="-255.84583" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="视力障碍" label="视力障碍">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-901.2799" y="-553.6115" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="颈心综合征" label="颈心综合征">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-847.0607" y="-372.32162" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="下肢瘫痪" label="下肢瘫痪">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-662.47925" y="-637.60364" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="胸部疼痛" label="胸部疼痛">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-808.65015" y="-686.84906" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="烧伤" label="烧伤">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-233.20258" y="686.73755" z="0.0"></viz:position>
+        <viz:color r="185" g="185" b="185"></viz:color>
+      </node>
+      <node id="脓毒症" label="脓毒症">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-281.36258" y="1014.6363" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="胃扩张" label="胃扩张">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-215.29799" y="872.63116" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="甲状腺疾病" label="甲状腺疾病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-109.85251" y="-1047.0671" z="0.0"></viz:position>
+        <viz:color r="208" g="208" b="208"></viz:color>
+      </node>
+      <node id="呼吸困难" label="呼吸困难">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="45.00082" y="-1054.5803" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="喉返神经损伤" label="喉返神经损伤">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-548.1349" y="-903.8662" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="喉上神经损伤" label="喉上神经损伤">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="352.68488" y="-1006.03033" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="手足抽搐" label="手足抽搐">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="195.93196" y="-1036.1631" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="甲状腺危象" label="甲状腺危象">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-408.00626" y="-978.04517" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="乳腺癌" label="乳腺癌">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-751.01294" y="145.20332" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="上肢水肿" label="上肢水肿">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-878.94293" y="261.9362" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="出血" label="出血">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-911.1327" y="105.49743" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="急性化脓性腹膜炎" label="急性化脓性腹膜炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-1059.535" y="48.26178" z="0.0"></viz:position>
+        <viz:color r="220" g="220" b="220"></viz:color>
+      </node>
+      <node id="肠梗阻" label="肠梗阻">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-990.2553" y="-405.1499" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="盆腔脓肿" label="盆腔脓肿">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-1057.9512" y="-117.27786" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="营养失调" label="营养失调">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-1040.1288" y="219.27061" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="切口感染" label="切口感染">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-992.04626" y="385.1848" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="中耳炎" label="中耳炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="873.18945" y="120.50129" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="鼻旁窦炎" label="鼻旁窦炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="878.31757" y="-193.06752" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="咽后壁脓肿" label="咽后壁脓肿">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="893.6667" y="-35.92938" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="喉炎" label="喉炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="868.3508" y="284.3845" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="支气管炎" label="支气管炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="556.1449" y="146.2434" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="副鼻窦炎" label="副鼻窦炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="732.62396" y="563.5994" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="先天性心脏病" label="先天性心脏病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="568.28186" y="-155.00139" z="0.0"></viz:position>
+        <viz:color r="220" g="220" b="220"></viz:color>
+      </node>
+      <node id="细菌性心内膜炎" label="细菌性心内膜炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="703.60004" y="-247.13167" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肾病综合征" label="肾病综合征">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="121.54454" y="-149.92259" z="0.0"></viz:position>
+        <viz:color r="220" g="220" b="220"></viz:color>
+      </node>
+      <node id="代谢异常" label="代谢异常">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="146.43562" y="-570.96405" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="新生儿窒息" label="新生儿窒息">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-636.86786" y="665.56036" z="0.0"></viz:position>
+        <viz:color r="208" g="208" b="208"></viz:color>
+      </node>
+      <node id="胎粪吸入综合征" label="胎粪吸入综合征">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-418.9825" y="957.9593" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="新生儿缺氧缺血性脑病" label="新生儿缺氧缺血性脑病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-688.09955" y="810.03394" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="缺氧缺血性心肌病" label="缺氧缺血性心肌病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-810.4545" y="688.17346" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="坏死性小肠结肠炎" label="坏死性小肠结肠炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-911.90784" y="547.9768" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="颅内出血" label="颅内出血">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-555.7851" y="900.4373" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="新生儿胎粪吸入综合症" label="新生儿胎粪吸入综合症">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="69.93458" y="839.04425" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="急性一氧化碳中毒" label="急性一氧化碳中毒">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-417.86136" y="448.2473" z="0.0"></viz:position>
+        <viz:color r="208" g="208" b="208"></viz:color>
+      </node>
+      <node id="骨筋膜室综合征" label="骨筋膜室综合征">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-523.8102" y="564.5738" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="脑梗死" label="脑梗死">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-737.8471" y="542.671" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="神经损害" label="神经损害">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-500.2383" y="751.4528" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="病毒性肝炎" label="病毒性肝炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="649.42523" y="-596.0617" z="0.0"></viz:position>
+        <viz:color r="220" g="220" b="220"></viz:color>
+      </node>
+      <node id="肝性脑病" label="肝性脑病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="727.81525" y="-751.68616" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="肝肾综合征" label="肝肾综合征">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="782.7189" y="-511.46045" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="麻疹" label="麻疹">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="496.97476" y="742.34576" z="0.0"></viz:position>
+        <viz:color r="208" g="208" b="208"></viz:color>
+      </node>
+      <node id="脑炎" label="脑炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="359.2464" y="840.2712" z="0.0"></viz:position>
+        <viz:color r="220" g="220" b="220"></viz:color>
+      </node>
+      <node id="亚急性硬化性全脑" label="亚急性硬化性全脑">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="640.4955" y="842.8914" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="流行性腮腺炎" label="流行性腮腺炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="1029.9723" y="94.72415" z="0.0"></viz:position>
+        <viz:color r="220" g="220" b="220"></viz:color>
+      </node>
+      <node id="脑膜脑炎" label="脑膜脑炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="1058.1195" y="-50.717064" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="睾丸炎" label="睾丸炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="1030.7053" y="240.38412" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="胰腺炎" label="胰腺炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="1035.72" y="-200.42998" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="水痘" label="水痘">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="506.3077" y="920.2746" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="艾滋病" label="艾滋病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="215.99376" y="747.4921" z="0.0"></viz:position>
+        <viz:color r="185" g="185" b="185"></viz:color>
+      </node>
+      <node id="肠炎" label="肠炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="359.9361" y="999.82153" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="胃炎" label="胃炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="205.3954" y="908.61957" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="食道炎" label="食道炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="190.8873" y="1050.1633" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="脑膜炎" label="脑膜炎">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="38.115486" y="1045.3706" z="0.0"></viz:position>
+        <viz:color r="243" g="243" b="243"></viz:color>
+      </node>
+      <node id="手足口病" label="手足口病">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-55.324245" y="919.00397" z="0.0"></viz:position>
+        <viz:color r="208" g="208" b="208"></viz:color>
+      </node>
+      <node id="血糖升高" label="血糖升高">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-129.27957" y="1056.0214" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="甲型H1N1" label="甲型H1N1">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="473.19962" y="566.4973" z="0.0"></viz:position>
+        <viz:color r="231" g="231" b="231"></viz:color>
+      </node>
+      <node id="咯血" label="咯血">
+        <attvalues></attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="402.78427" y="213.4648" z="0.0"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
       </node>
     </nodes>
     <edges>
-      <edge source="高血压" target="上呼吸道感染">
+      <edge source="糖尿病" target="足溃疡">
         <attvalues></attvalues>
       </edge>
-      <edge source="高血压" target="急性上呼吸道感染">
+      <edge source="糖尿病" target="肾脏病变">
         <attvalues></attvalues>
       </edge>
-      <edge source="高血压" target="上呼吸道疾病">
+      <edge source="糖尿病" target="神经病变">
         <attvalues></attvalues>
       </edge>
-      <edge source="高血压" target="急性扁桃体炎">
+      <edge source="糖尿病" target="糖尿病酮症酸中毒">
         <attvalues></attvalues>
       </edge>
-      <edge source="高血压" target="慢性胃炎" weight="2.0">
+      <edge source="糖尿病" target="高渗性昏迷">
         <attvalues></attvalues>
       </edge>
-      <edge source="上呼吸道感染" target="急性扁桃体炎">
+      <edge source="糖尿病" target="视网膜病变">
         <attvalues></attvalues>
       </edge>
-      <edge source="糖尿病" target="高血压" weight="2.0">
+      <edge source="糖尿病" target="尿路感染">
         <attvalues></attvalues>
       </edge>
-      <edge source="糖尿病" target="上呼吸道感染">
+      <edge source="糖尿病" target="膀胱炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="糖尿病" target="急性上呼吸道感染">
+      <edge source="糖尿病" target="肺结核">
         <attvalues></attvalues>
       </edge>
-      <edge source="糖尿病" target="上呼吸道疾病">
+      <edge source="糖尿病" target="动脉粥样硬化">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃炎" target="高血压" weight="2.0">
+      <edge source="糖尿病" target="冠心病">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃炎" target="上呼吸道感染">
+      <edge source="糖尿病" target="脑血管病" weight="2.0">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃炎" target="糖尿病">
+      <edge source="糖尿病" target="心肌梗死">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃炎" target="急性上呼吸道感染">
+      <edge source="糖尿病" target="心力衰竭">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃炎" target="上呼吸道疾病">
+      <edge source="糖尿病" target="肺水肿">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃炎" target="软组织挫伤">
+      <edge source="糖尿病" target="心肌炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃炎" target="咽炎">
+      <edge source="糖尿病" target="心律失常">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃炎" target="急性支气管炎">
+      <edge source="糖尿病" target="高血压">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="高血压" weight="2.0">
+      <edge source="糖尿病" target="白内障">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="上呼吸道感染">
+      <edge source="糖尿病" target="青光眼">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="糖尿病">
+      <edge source="糖尿病" target="肾盂肾炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="胃炎">
+      <edge source="糖尿病" target="心动过速">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="急性上呼吸道感染">
+      <edge source="尿路感染" target="肾乳头坏死">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="上呼吸道疾病">
+      <edge source="尿路感染" target="肾周围炎和肾周围脓肿">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="急性扁桃体炎">
+      <edge source="尿路感染" target="革兰氏阴性杆菌败血症">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="软组织挫伤">
+      <edge source="肺结核" target="气胸">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="关节炎">
+      <edge source="肺结核" target="感染">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="心律失常">
+      <edge source="肺结核" target="咯血">
         <attvalues></attvalues>
       </edge>
-      <edge source="支气管炎" target="慢性胃炎">
+      <edge source="心肌梗死" target="心律失常">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性上呼吸道感染" target="急性扁桃体炎">
+      <edge source="心肌梗死" target="血栓">
         <attvalues></attvalues>
       </edge>
-      <edge source="冠心病" target="高血压">
+      <edge source="心肌梗死" target="心脏破裂">
         <attvalues></attvalues>
       </edge>
-      <edge source="冠心病" target="上呼吸道感染">
+      <edge source="心肌梗死" target="泵衰竭">
         <attvalues></attvalues>
       </edge>
-      <edge source="冠心病" target="胃炎">
+      <edge source="心肌梗死" target="心室膨胀瘤">
         <attvalues></attvalues>
       </edge>
-      <edge source="冠心病" target="支气管炎">
+      <edge source="心肌梗死" target="心肌梗死后综合征">
         <attvalues></attvalues>
       </edge>
-      <edge source="冠心病" target="软组织挫伤">
+      <edge source="心肌梗死" target="肩手综合征">
         <attvalues></attvalues>
       </edge>
-      <edge source="上呼吸道疾病" target="急性扁桃体炎">
+      <edge source="心力衰竭" target="电解质紊乱">
         <attvalues></attvalues>
       </edge>
-      <edge source="软组织挫伤" target="高血压">
+      <edge source="心力衰竭" target="肝硬化">
         <attvalues></attvalues>
       </edge>
-      <edge source="软组织挫伤" target="上呼吸道感染">
+      <edge source="心力衰竭" target="呼吸道感染">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常（心律不齐）" target="高血压">
+      <edge source="心力衰竭" target="血栓">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常（心律不齐）" target="上呼吸道感染">
+      <edge source="心律失常" target="心律失常">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常（心律不齐）" target="胃炎">
+      <edge source="心律失常" target="心绞痛">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常（心律不齐）" target="支气管炎">
+      <edge source="心律失常" target="血栓">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常（心律不齐）" target="软组织挫伤">
+      <edge source="高血压" target="肾脏病变">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常（心律不齐）" target="乏力">
+      <edge source="高血压" target="动脉粥样硬化">
         <attvalues></attvalues>
       </edge>
-      <edge source="乏力" target="高血压">
+      <edge source="高血压" target="冠心病">
         <attvalues></attvalues>
       </edge>
-      <edge source="乏力" target="上呼吸道感染">
+      <edge source="高血压" target="心肌梗死" weight="2.0">
         <attvalues></attvalues>
       </edge>
-      <edge source="乏力" target="胃炎">
+      <edge source="高血压" target="心力衰竭">
         <attvalues></attvalues>
       </edge>
-      <edge source="乏力" target="软组织挫伤">
+      <edge source="高血压" target="脑血管意外">
         <attvalues></attvalues>
       </edge>
-      <edge source="乏力" target="咽炎">
+      <edge source="高血压" target="心绞痛">
         <attvalues></attvalues>
       </edge>
-      <edge source="关节炎" target="高血压" weight="2.0">
+      <edge source="高血压" target="左心室肥厚">
         <attvalues></attvalues>
       </edge>
-      <edge source="关节炎" target="上呼吸道感染">
+      <edge source="高血压" target="出血性脑卒中">
         <attvalues></attvalues>
       </edge>
-      <edge source="关节炎" target="糖尿病">
+      <edge source="高血压" target="缺血性脑卒中">
         <attvalues></attvalues>
       </edge>
-      <edge source="关节炎" target="胃炎">
+      <edge source="高血压" target="高血压脑病">
         <attvalues></attvalues>
       </edge>
-      <edge source="关节炎" target="急性上呼吸道感染">
+      <edge source="高血压" target="主动脉夹层">
         <attvalues></attvalues>
       </edge>
-      <edge source="关节炎" target="心律失常">
+      <edge source="高血压" target="小动脉性肾硬化症">
         <attvalues></attvalues>
       </edge>
-      <edge source="关节炎" target="急性支气管炎">
+      <edge source="高血压" target="肾功能衰竭" weight="2.0">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常" target="高血压">
+      <edge source="高血压" target="视网膜动脉硬化">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常" target="糖尿病">
+      <edge source="高血压" target="眼底改变">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常" target="急性上呼吸道感染">
+      <edge source="慢性肺源性心脏病" target="心律失常">
         <attvalues></attvalues>
       </edge>
-      <edge source="心律失常" target="慢性胃炎">
+      <edge source="慢性肺源性心脏病" target="肺性脑病">
         <attvalues></attvalues>
       </edge>
-      <edge source="咽炎" target="高血压">
+      <edge source="慢性肺源性心脏病" target="电解质紊乱">
         <attvalues></attvalues>
       </edge>
-      <edge source="咽炎" target="上呼吸道感染">
+      <edge source="慢性肺源性心脏病" target="休克">
         <attvalues></attvalues>
       </edge>
-      <edge source="咽炎" target="软组织挫伤">
+      <edge source="慢性肺源性心脏病" target="消化道出血">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性咽炎" target="高血压" weight="2.0">
+      <edge source="慢性肺源性心脏病" target="弥散性血管内凝血">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性咽炎" target="上呼吸道感染">
+      <edge source="肝硬化" target="肝硬化腹水">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性咽炎" target="胃炎">
+      <edge source="肝硬化" target="肝硬化消化道大出血">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性咽炎" target="支气管炎">
+      <edge source="呼吸道感染" target="肺炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性咽炎" target="急性上呼吸道感染">
+      <edge source="呼吸道感染" target="中耳炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性咽炎" target="上呼吸道疾病">
+      <edge source="呼吸道感染" target="鼻旁窦炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性咽炎" target="急性支气管炎">
+      <edge source="呼吸道感染" target="咽后壁脓肿">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性咽炎" target="慢性胃炎">
+      <edge source="呼吸道感染" target="喉炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性咽炎" target="胃溃疡">
+      <edge source="呼吸道感染" target="支气管炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性支气管炎" target="高血压" weight="2.0">
+      <edge source="脑梗塞" target="肾脏病变">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性支气管炎" target="上呼吸道感染">
+      <edge source="脑梗塞" target="尿路感染">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性支气管炎" target="糖尿病">
+      <edge source="脑梗塞" target="心肌梗死">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性支气管炎" target="急性上呼吸道感染">
+      <edge source="脑梗塞" target="肺部感染">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性支气管炎" target="上呼吸道疾病">
+      <edge source="脑梗塞" target="关节挛缩">
         <attvalues></attvalues>
       </edge>
-      <edge source="急性支气管炎" target="慢性胃炎">
+      <edge source="脑梗塞" target="癫痫">
         <attvalues></attvalues>
       </edge>
-      <edge source="慢性胃炎" target="上呼吸道感染">
+      <edge source="脑梗塞" target="应激性溃疡">
         <attvalues></attvalues>
       </edge>
-      <edge source="慢性胃炎" target="急性上呼吸道感染">
+      <edge source="消化性溃疡" target="消化道出血">
         <attvalues></attvalues>
       </edge>
-      <edge source="高血压性心脏病" target="高血压" weight="2.0">
+      <edge source="消化性溃疡" target="幽门梗阻">
         <attvalues></attvalues>
       </edge>
-      <edge source="高血压性心脏病" target="上呼吸道感染">
+      <edge source="消化性溃疡" target="急性穿孔">
         <attvalues></attvalues>
       </edge>
-      <edge source="高血压性心脏病" target="糖尿病">
+      <edge source="慢性支气管炎" target="阻塞性肺气肿">
         <attvalues></attvalues>
       </edge>
-      <edge source="高血压性心脏病" target="胃炎">
+      <edge source="慢性支气管炎" target="支气管肺炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="高血压性心脏病" target="急性上呼吸道感染">
+      <edge source="慢性支气管炎" target="支气管扩张">
         <attvalues></attvalues>
       </edge>
-      <edge source="消化不良" target="高血压" weight="2.0">
+      <edge source="支气管肺炎" target="肺炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="消化不良" target="上呼吸道感染">
+      <edge source="支气管肺炎" target="中耳炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="消化不良" target="胃炎">
+      <edge source="支气管肺炎" target="喉炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="消化不良" target="支气管炎">
+      <edge source="支气管肺炎" target="副鼻窦炎">
         <attvalues></attvalues>
       </edge>
-      <edge source="消化不良" target="急性上呼吸道感染">
+      <edge source="支气管哮喘" target="肺结核">
         <attvalues></attvalues>
       </edge>
-      <edge source="消化不良" target="急性咽炎">
+      <edge source="支气管哮喘" target="心律失常">
         <attvalues></attvalues>
       </edge>
-      <edge source="消化不良" target="急性支气管炎">
+      <edge source="支气管哮喘" target="高血压">
         <attvalues></attvalues>
       </edge>
-      <edge source="消化不良" target="慢性胃炎">
+      <edge source="支气管哮喘" target="慢性肺源性心脏病">
         <attvalues></attvalues>
       </edge>
-      <edge source="消化不良" target="胃溃疡">
+      <edge source="支气管哮喘" target="电解质紊乱">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃溃疡" target="高血压" weight="2.0">
+      <edge source="支气管哮喘" target="呼吸道感染">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃溃疡" target="上呼吸道感染">
+      <edge source="支气管哮喘" target="肺部感染">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃溃疡" target="胃炎">
+      <edge source="支气管哮喘" target="气胸">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃溃疡" target="支气管炎">
+      <edge source="支气管哮喘" target="呼吸衰竭">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃溃疡" target="急性扁桃体炎">
+      <edge source="支气管哮喘" target="慢性阻塞性肺疾病">
         <attvalues></attvalues>
       </edge>
-      <edge source="胃溃疡" target="高血压性心脏病">
+      <edge source="慢性阻塞性肺疾病" target="慢性肺源性心脏病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="慢性阻塞性肺疾病" target="气胸">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="慢性阻塞性肺疾病" target="呼吸衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="慢性阻塞性肺疾病" target="胃溃疡">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="慢性阻塞性肺疾病" target="睡眠呼吸障碍">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肺炎" target="心肌炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肺炎" target="感染性休克">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肺炎" target="胸膜炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肺炎" target="脓胸">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肾小球肾炎" target="尿路感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肾小球肾炎" target="高血压脑病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肾小球肾炎" target="肾功能衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肾小球肾炎" target="肺部感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肾小球肾炎" target="循环充血状态">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="血栓">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="肺部感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="褥疮">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="损伤性骨化">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="创伤性关节炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="关节僵硬">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="急性骨萎缩">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="缺血性骨坏死">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨折" target="缺血性肌痉挛">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="髌骨骨折" target="创伤性休克">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="髌骨骨折" target="挤压综合征">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="髌骨骨折" target="血管神经损伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="髌骨骨折" target="脂肪栓塞综合征">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="髌骨骨折" target="骨折畸形愈合">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="髌骨骨折" target="骨折不连接">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="髌骨骨折" target="膝关节僵直">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肱骨骨折" target="糖尿病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肱骨骨折" target="高血压">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肱骨骨折" target="肺部感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肱骨骨折" target="血管神经损伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肱骨骨折" target="缺血性肌挛缩">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肱骨骨折" target="肘内翻">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨盆骨折" target="血栓">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨盆骨折" target="脂肪栓塞综合征">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨盆骨折" target="腹膜后血肿">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨盆骨折" target="膀胱或尿道损伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨盆骨折" target="腹腔内脏损伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="骨盆骨折" target="神经损伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="颈椎病" target="高血压">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="颈椎病" target="吞咽障碍">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="颈椎病" target="视力障碍">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="颈椎病" target="颈心综合征">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="颈椎病" target="下肢瘫痪">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="颈椎病" target="胸部疼痛">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="烧伤" target="休克">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="烧伤" target="肾功能衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="烧伤" target="肺部感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="烧伤" target="应激性溃疡">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="烧伤" target="呼吸衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="烧伤" target="脓毒症">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="烧伤" target="胃扩张">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="甲状腺疾病" target="呼吸困难">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="甲状腺疾病" target="喉返神经损伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="甲状腺疾病" target="喉上神经损伤">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="甲状腺疾病" target="手足抽搐">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="甲状腺疾病" target="甲状腺危象">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="乳腺癌" target="肺部感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="乳腺癌" target="上肢水肿">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="乳腺癌" target="出血">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性化脓性腹膜炎" target="肠梗阻">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性化脓性腹膜炎" target="盆腔脓肿">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性化脓性腹膜炎" target="营养失调">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性化脓性腹膜炎" target="切口感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="先天性心脏病" target="心力衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="先天性心脏病" target="血栓">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="先天性心脏病" target="肺炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="先天性心脏病" target="细菌性心内膜炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肾病综合征" target="肾功能衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肾病综合征" target="血栓">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肾病综合征" target="感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="肾病综合征" target="代谢异常">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="新生儿窒息" target="肾功能衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="新生儿窒息" target="胎粪吸入综合征">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="新生儿窒息" target="新生儿缺氧缺血性脑病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="新生儿窒息" target="缺氧缺血性心肌病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="新生儿窒息" target="坏死性小肠结肠炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="新生儿缺氧缺血性脑病" target="缺氧缺血性心肌病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="新生儿缺氧缺血性脑病" target="颅内出血">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="新生儿胎粪吸入综合症" target="呼吸衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性一氧化碳中毒" target="心肌梗死">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性一氧化碳中毒" target="肾功能衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性一氧化碳中毒" target="骨筋膜室综合征">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性一氧化碳中毒" target="脑梗死">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="急性一氧化碳中毒" target="神经损害">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="病毒性肝炎" target="消化道出血">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="病毒性肝炎" target="感染">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="病毒性肝炎" target="肝性脑病">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="病毒性肝炎" target="肝肾综合征">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="麻疹" target="心肌炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="麻疹" target="肺炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="麻疹" target="喉炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="麻疹" target="脑炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="麻疹" target="亚急性硬化性全脑">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="流行性腮腺炎" target="心肌炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="流行性腮腺炎" target="脑膜脑炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="流行性腮腺炎" target="睾丸炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="流行性腮腺炎" target="胰腺炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="水痘" target="肺炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="水痘" target="脑炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="艾滋病" target="肺结核">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="艾滋病" target="肺炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="艾滋病" target="脑炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="艾滋病" target="肠炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="艾滋病" target="胃炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="艾滋病" target="食道炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="艾滋病" target="脑膜炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="手足口病" target="肺水肿">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="手足口病" target="休克">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="手足口病" target="脑炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="手足口病" target="脑膜炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="手足口病" target="血糖升高">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="甲型H1N1" target="呼吸衰竭">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="甲型H1N1" target="肺炎">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="甲型H1N1" target="支气管炎">
         <attvalues></attvalues>
       </edge>
     </edges>

@@ -42,12 +42,11 @@
             <div class="container-fluid">
 
                 <div>
-                	<h>就诊时间轴</h>
-
-                    <?php include 'timeline.php';?>
 
 
+<script id="infogram_0_-0865006006406275" src="//e.infogr.am/js/embed.js?oz5" type="text/javascript"></script><div style="width:100%;padding:8px 0;font-family:Arial;font-size:13px;line-height:15px;text-align:center;"><a target="_blank" href="https://infogr.am/-0865006006406275" style="color:#989898;text-decoration:none;">就诊情况统计</a><br><a style="color:#989898;text-decoration:none;" href="https://infogr.am" target="_blank">Create your own infographics</a></div>
 
+				
                 </div>
                 
 

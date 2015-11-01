@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <style>
 
 body {
@@ -7,31 +8,91 @@ body {
 }
 
 .axis line {
-  stroke: #000;
+  stroke: gray;
 }
 
 .axis path {
   fill: none;
-  stroke: #000;
+  stroke: gray;
 }
 
+.axis text {
+  font-family: sans-serif;
+  font-size: 0px;
+  fill:gray;
+}
 .axis + .axis g text {
-  display: none;
+  display: none;  
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
 }
 
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
 
 </style>
 <body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="js/d3.js"></script>
+<script src="js/tip.js"></script>
 <script>
 
 var formatDate = d3.time.format("%a"),
     formatDay = function(d) { return formatDate(new Date(2007, 0, d)); };
 
-var width = 960,
-    height = 500,
-    outerRadius = height / 2 - 10,
-    innerRadius = 60;
+var device_width = document.body.clientWidth;
+var device_height = document.documentElement.clientHeight;
+//屏幕大小
+
+var width = device_width,
+    height = 0.9*device_height;
+
+var format = d3.format(".1f");
+//var width = 960,
+ //   height = 600,
+var outerRadius = height / 2,
+    innerRadius = height / 4;
+
+var min = [], max = [], flag = [0,0,0,0,0,0,0];
+
+var name = [];
+
+var arrow = "";
+/*color scheme 1*/
+var normal = "#2088E5";
+var user = "#00427F";
+/*color scheme 2*/
+/*
+var normal = "#0C5AA6";
+var user = "#FFB140";
+*/
+/*color scheme 3*/
+/*
+var normal = "#2CB2A3";
+var user = "#FF8C59";
+*/
 
 var angle = d3.time.scale()
     .range([0, 2 * Math.PI]);
@@ -65,7 +126,37 @@ var svg = d3.select("#chemical-test").append("svg")
     .attr("width", width)
     .attr("height", height)
   .append("g")
-    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+    .attr("transform", "translate(" + width / 2 + "," +  height / 2 + ")");
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d, i) {
+    var min_value;
+    var max_value;
+    var user_value;
+    if(flag[(i-2)/3] == 0){
+      if(d.value > max[(i-2)/3]) arrow = "↑";
+      else if(d.value < min[(i-2)/3]) arrow = "↓";
+      else arrow = "";
+      min_value = Math.exp(min[(i-2)/3]);
+      max_value = Math.exp(max[(i-2)/3]);
+      user_value = Math.exp(d.value);
+    }
+    else{
+      if(d.value > min[(i-2)/3]) arrow = "↓";
+      else if(d.value < max[(i-2)/3]) arrow = "↑";
+      else arrow = "";
+      max_value = Math.exp(min[(i-2)/3]);
+      min_value = Math.exp(max[(i-2)/3]);
+      user_value = Math.exp(d.value);
+    }
+    return "<span style='color:white'>" + d.name + ": " + format(user_value) + "</span><span style = 'color:red'>" + arrow + "</span> (" 
+    + format(min_value) + "~" + format(max_value) + ")";
+  });
+
+svg.call(tip);
+
 
 d3.csv("data/data.csv", type, function(error, data) {
   var layers = stack(nest.entries(data));
@@ -78,18 +169,13 @@ d3.csv("data/data.csv", type, function(error, data) {
     .enter().append("path")
       .attr("class", "layer")
       .attr("d", function(d) { return area(d.values); })
-      .style("fill", function(d, i) {if (i==1) return "white"; return z(i); })
-      .style("stroke", function(d, i){if(i==2) return "#E8120C"})
-      .style("fill-opacity", function(d,i){if (i==2) return 0; return 1;});
-/*
-  svg.selectAll(".circle")
-      .data(data)
-    .enter().append("circle")
-      .attr("cx", function(d, i){ if(i%3 == 2) return (120+d.value/22*(outerRadius-innerRadius))*Math.cos(2*(i+1)*Math.PI/21 + Math.PI/14);})
-      .attr("cy", function(d, i){ if(i%3 == 2) return (120+d.value/22*(outerRadius-innerRadius))*Math.sin(2*(i+1)*Math.PI/21 + Math.PI/14);})
-      .attr("r", 5)
-      .style("fill", "red");
-*/
+      .style("fill", function(d, i) {
+          if (i==1||i==2) return "white";
+          return normal;})
+      .style("stroke", function(d, i){if(i==2) return user})
+      .style("stroke-width",3)
+      .style("fill-opacity", function(d,i){if (i==2) return 0.7; return 1;});
+
   svg.selectAll(".axis")
       .data(d3.range(angle.domain()[1]))
     .enter().append("g")
@@ -102,7 +188,10 @@ d3.csv("data/data.csv", type, function(error, data) {
       .attr("y", -innerRadius + 6)
       .attr("dy", ".71em")
       .attr("text-anchor", "middle")
-      .text(function(d) { 
+      .style("fill", user)
+      .style("font-size", "14px")
+      .text(function(d) {
+ //       return name[d];
       switch(d)
       {
         case 0:
@@ -116,25 +205,46 @@ d3.csv("data/data.csv", type, function(error, data) {
         case 4:
           return "总胆固醇";
         case 5:
-          return "甘油三酯";
+          return "尿酸";
         case 6:
           return "肌酐";
         default:
-          return "尿素氮";
+          return "";
       }
     });
+
+  svg.selectAll(".circle")
+      .data(data)
+    .enter().append("circle")
+      .attr("cx", function(d, i){ 
+        if(i%3 == 0) max[i/3] = d.value;
+        if(i%3 == 1) min[(i-1)/3] = d.value;
+        if(i%3 == 2) return (radius(d.value))*Math.cos(2*(i+13)*Math.PI/21 + Math.PI/14);})
+      .attr("cy", function(d, i){ if(i%3 == 2) return (radius(d.value))*Math.sin(2*(i+13)*Math.PI/21 + Math.PI/14);})
+      .attr("r", 5)
+      .style("fill", function(d, i){ if(i%3 == 2) return "white"; else return "white"})
+      .style("stroke", function(d, i){if (i%3 == 2) return user;})
+      .style("stroke-width", 3)
+//      .on("mouseover", function(d, i){if(i%3 == 2) d3.select(this).transition().duration(100).attr("r", 8).style("stroke", "#FF9938")})
+//      .on("mouseout", function(d, i){if(i%3 == 2) d3.select(this).transition().duration(100).attr("r", 5).style("stroke", "#00437F")});
+        .on("mouseover", tip.show)
+        .on("mouseout", tip.hide);
 });
 
 function type(d) {
   d.time = +d.time;
   //d.value = +d.value;
   d.value = +Math.log(d.value);
-  if(d.value < 0&&d.key=='a'){
+  name[d.time] = d.name;
+  if(d.value < 0&&d.key=='max'){
     d.value = -d.value;
-    d.key = 'b';}
-  else if(d.value < 0&&d.key == 'b'){
+    d.key = 'min';
+    flag[d.time] = 1;
+  }
+  else if(d.value < 0&&d.key == 'min'){
+    if(flag[d.time]==1){
     d.value = -d.value;
-    d.key = 'a';
+    d.key = 'max';}
   }
   else if(d.value < 0)
       d.value = -d.value;
